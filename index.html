@@ -5,7 +5,7 @@
 	<script>
 		// TODO: create a handler
 	function setSearchEngine() {
-		document.querySelector(input[name=engine]:checked);
+		let chosenEngine = document.querySelector(input[name=engine]:checked).value;
 		let actionURL;
 		let actions = {
    			"google": "https://www.google.com/",
@@ -13,7 +13,7 @@
 			"bing": "https://www.bing.com/search",
 			"ask":"https://www.ask.com/web"
 		};
-		
+
 	}
     window.addEventListener("load", function(){
         // TODO: register the handler
